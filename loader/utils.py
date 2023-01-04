@@ -1,3 +1,4 @@
+"""создаем функцию которая будет сохранять картинки в папку uploads"""
 def save_picture(picture):
     filename = picture.filename
     file_type = filename.split('.')[-1]

@@ -1,7 +1,12 @@
+"""
+Создаем экземляр класса с методами, которые будут загружать все файлы, находить
+пост по ключевому слову, и добавлять новый пост
+"""
 import json
 class PostHendler:
     def __init__(self,path):
         self.path = path
+
 
     def load_posts(self):
         post = []
