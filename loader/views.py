@@ -7,7 +7,7 @@ from loader.utils import save_picture
 
 
 loader_blueprint = Blueprint("loader_blueprint", __name__)
-logging.basicConfig(filename='basic.log', level=logging.INFO)
+logging.basicConfig(filename='basic.log', encoding='utf-8', level=logging.INFO)
 
 """создаем вьюшку которая будет на экран выводит шабло для добавление поста"""
 @loader_blueprint.route('/post')

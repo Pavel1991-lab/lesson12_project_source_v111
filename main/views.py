@@ -3,7 +3,7 @@ from main.utils import PostHendler
 import logging
 main_blueprint = Blueprint("main_blueprint", __name__,)
 
-logging.basicConfig(filename='basic.log', level=logging.INFO)
+logging.basicConfig(filename='basic.log', encoding='utf-8', level=logging.INFO)
 
 
 """Создаем вьюшку которая выведет нас на главную страницу"""
